@@ -8,4 +8,6 @@ Install
 
 Sinatra app. Launch start.rb
 
-No ENV, DB or directories are required.
+One static directory at /config
+No ENVs
+No DB
