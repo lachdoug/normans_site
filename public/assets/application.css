@@ -23,7 +23,7 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 .dark-jumbo-text {
   color: white;
   font-size: 2em;
-  padding: 140px 40px;
+  padding: 130px 40px;
   vertical-align: middle;
   text-transform: uppercase;
   max-width: 400px;
@@ -52,7 +52,7 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
   text-align: center;
 }
 
-.light-banner-text .highlight-text {
+.bold-text {
   font-weight: bold;
 }
 
@@ -128,6 +128,15 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
     font-size: 1.5em;
   }
 
+  .light-banner-text {
+    padding: 25px;
+  }
+
+  .dark-banner-text {
+    padding: 25px;
+  }
+
+
 
 }
 
@@ -135,6 +144,14 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
   .dark-jumbo-text {
     font-size: 1.4em;
+  }
+
+  .light-banner-text {
+    padding: 10px;
+  }
+
+  .dark-banner-text {
+    padding: 10px;
   }
 
 

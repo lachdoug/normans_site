@@ -43,5 +43,4 @@ def set_portfolio_content(page)
     @page_title = "Ooops"
     @image = "dog1.jpg"
   end
-
 end
