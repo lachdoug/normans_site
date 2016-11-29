@@ -8,25 +8,25 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img class="" src="/images/n-icon.png" alt="" height="50" width="50"> Norman Liu
+        <img class="" src="/images/graphis-icon.png" alt=""> GRAPHIS
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
 
         <li class="<%= @active == 'home' ? 'active': '' %>"><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
-        <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/about">About</a></li>
-        <li class="<%= @active == 'contact' ? 'active': '' %>"><a href="/contact">Contact</a></li>
+        <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/about">ABOUT ME</a></li>
         <li class="dropdown <%= @active == 'photography' ? 'active': '' %>">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MY WORK<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li class="<%= @active == 'photography' ? 'active': '' %>"><a href="/portfolio?page=photography">Photography</a></li>
-            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=cool">Cool stuff</a></li>
-            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=wow">Wow</a></li>
+            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=Cool+stuff">Cool stuff</a></li>
+            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=Wow">Wow</a></li>
             <li role="separator" class="divider"></li>
-            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=look">Look</a></li>
+            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=Look+at+this+great+page">Look</a></li>
           </ul>
         </li>
+        <li class="<%= @active == 'contact' ? 'active': '' %>"><a href="/contact">CONTACT ME</a></li>
       </ul>
     </div>
   </div>

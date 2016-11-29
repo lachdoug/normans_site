@@ -1,55 +1,84 @@
-body { margin: 0px; font-family: 'Open Sans'; font-size: 1.5em; color: #eee; background-color: #000;}
-.page { max-width: 1080px; margin-left: auto; margin-right: auto; padding: 0px 15px;}
-nav.navbar.navbar-default { background-color: transparent; border-color: transparent; }
-nav.navbar.navbar-default .navbar-nav > li > a { color: #ccc; }
+body { margin: 0px; font-family: 'Open Sans'; font-size: 1.5em; letter-spacing: -1px; font-weight: lighter; color: #000; background-color: #bbb;}
+.page { max-width: 1800px; margin-left: auto; margin-right: auto; }
+.page .row { margin-left: 0px; margin-right: 0px; }
+
+nav.navbar.navbar-default { background-color: white; border-radius: 0px; border: none; margin: 10px 0px 0px 0px; font-weight: bold; }
+nav.navbar.navbar-default .navbar-nav > li > a { color: #666; }
 nav.navbar.navbar-default .navbar-toggle { border-color: transparent; }
-nav.navbar.navbar-default .navbar-toggle:hover { background-color: transparent; border-color: #666; color: #fff;  }
-nav.navbar.navbar-default .navbar-nav > li > a:hover { color: #fff; }
-nav.navbar.navbar-default .navbar-brand { padding: 0px 5px 0px 0px; vertical-align: middle; line-height: 50px; }
-nav.navbar.navbar-default .navbar-brand { color: #ccc; }
-nav.navbar.navbar-default .navbar-brand:hover { color: #fff; }
+nav.navbar.navbar-default .navbar-toggle .icon-bar { background-color: #999; }
+nav.navbar.navbar-default .navbar-toggle:hover { background-color: #333; border-color: transparent;  }
+nav.navbar.navbar-default .navbar-toggle:focus { background-color: #333; border-color: transparent;  }
+nav.navbar.navbar-default .navbar-nav > li > a:hover { color: #000; }
+nav.navbar.navbar-default .navbar-brand { padding: 0px 5px 0px 20px; vertical-align: middle; line-height: 48px; font-size: 36px; font-weight: lighter; }
+nav.navbar.navbar-default .navbar-brand img { padding: 2px 0px 0px 0px; vertical-align: top; }
+nav.navbar.navbar-default .navbar-brand { color: #666; }
+nav.navbar.navbar-default .navbar-brand:hover { color: #000; }
 nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 
-
-.portfolio_page_image img { display: inline-block; }
-
-
-/*nav.navbar.navbar-default .dropdown-menu { background-color: #000; color: #333; }
-nav.navbar.navbar-default .dropdown a.dropdown-toggle { background-color: #333; color: #fff; }
-nav.navbar.navbar-default .dropdown .dropdown-menu a { color: #eee; }
-*/
-
-
-nav.navbar.navbar-default .navbar-nav .open a {
-  background-color: transparent;
-  color: #fff;
-}
-
-nav.navbar.navbar-default .navbar-nav .dropdown-menu {
-  background-color: #000;
-  border: 1px solid #ccc;
-  border-radius: 0px;
-}
-
-nav.navbar.navbar-default .navbar-nav .dropdown-menu li {
-  background-color: #000;
-}
-nav.navbar.navbar-default .navbar-nav .dropdown-menu li a {
-  color: #ccc;
-}
-nav.navbar.navbar-default .navbar-nav .dropdown-menu li a:hover {
-  color: #fff;
+.dark-jumbo {
   background-color: #000;
 }
 
-
-
-.portfolio_link a { display: inline-block; }
-@media (min-width: 768px) {
-  .tight-padding { padding: 0px 2px !important; }
+.dark-jumbo-text {
+  color: white;
+  font-size: 2em;
+  padding: 40px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  height: 100%;
 }
 
-footer {
-
+.dark-jumbo-text .highlight-text {
+  color: #8dc740;
 }
+
+.light-jumbo {
+  background-color: #fff;
+}
+
+.light-jumbo-text {
+  color: #000;
+  font-size: 1.2em;
+  padding: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.light-jumbo-text .highlight-text {
+  font-weight: bold;
+}
+
+/*.portfolio-link,
+.portfolio-link-mouseover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.portfolio-link-mouseover {
+  z-index: 10;
+}*/
+
+.tight-padding { padding: 0px !important; }
+.narrow-page-gap { height: 10px; }
+.full-width { width: 100%; }
+
+.hovereffect a { text-decoration: none; }
+.hovereffect .overlay { pointer-events: none; }
+
+
+/*">
+  <div class="tight-padding col-sm-12 col-md-6 col-lg-6">
+    <div class="contrast-jumbo-text">
+      MY NAME IS <span class="highlight-text">NORMAN LIU</span>,<br>
+      I'M A GRAPHIC DESIGNER<br> AND PHOTOGRAPHER.
+    </div>
+  </div>
+  <div class="tight-padding col-sm-12 col-md-6 col-lg-6">
+    <div class="contrast-jumbo-image">
+      <img src="/images/norman-headshot.png" class="img img-responsive full-width" />
+    </div>
+  </div>*/
