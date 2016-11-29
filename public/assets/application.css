@@ -94,6 +94,11 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 .hovereffect a { text-decoration: none; }
 .hovereffect .overlay { pointer-events: none; }
+.hovereffect:hover a.info {
+  margin: 10px 0px 0px 0px;
+  background-color: #000;
+  opacity: 0.6;
+}
 
 
 
@@ -153,7 +158,6 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
   .dark-banner-text {
     padding: 10px;
   }
-
 
 }
 
