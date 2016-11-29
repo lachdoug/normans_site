@@ -33,6 +33,13 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
   color: #8dc740;
 }
 
+.dark-jumbo-image img {
+  max-height: 300px;
+  max-width: 300px;
+  float: right;
+}
+
+
 .light-jumbo {
   background-color: #fff;
 }
