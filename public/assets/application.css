@@ -9,8 +9,8 @@ nav.navbar.navbar-default .navbar-toggle .icon-bar { background-color: #999; }
 nav.navbar.navbar-default .navbar-toggle:hover { background-color: #333; border-color: transparent;  }
 nav.navbar.navbar-default .navbar-toggle:focus { background-color: #333; border-color: transparent;  }
 nav.navbar.navbar-default .navbar-nav > li > a:hover { color: #000; }
-nav.navbar.navbar-default .navbar-brand { padding: 0px 5px 0px 20px; vertical-align: middle; line-height: 48px; font-size: 36px; font-weight: lighter; }
-nav.navbar.navbar-default .navbar-brand img { padding: 2px 0px 0px 0px; vertical-align: top; }
+nav.navbar.navbar-default .navbar-brand { padding: 0px 5px 0px 20px; vertical-align: middle; line-height: 48px; font-size: 32px; font-weight: lighter; }
+nav.navbar.navbar-default .navbar-brand img { vertical-align: top; margin: 7px 0px; height: 36px; width: 36px;}
 nav.navbar.navbar-default .navbar-brand { color: #666; }
 nav.navbar.navbar-default .navbar-brand:hover { color: #000; }
 nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
@@ -23,10 +23,10 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 .dark-jumbo-text {
   color: white;
   font-size: 2em;
-  padding: 40px;
+  padding: 140px 40px;
   vertical-align: middle;
   text-transform: uppercase;
-  height: 100%;
+  max-width: 400px;
 }
 
 .dark-jumbo-text .highlight-text {
@@ -34,17 +34,17 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 }
 
 .dark-jumbo-image img {
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 500px;
+  max-width: 500px;
   float: right;
 }
 
 
-.light-jumbo {
+.light-banner {
   background-color: #fff;
 }
 
-.light-jumbo-text {
+.light-banner-text {
   color: #000;
   font-size: 1.2em;
   padding: 50px;
@@ -52,9 +52,28 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
   text-align: center;
 }
 
-.light-jumbo-text .highlight-text {
+.light-banner-text .highlight-text {
   font-weight: bold;
 }
+
+
+.dark-banner {
+  background-color: #000;
+}
+
+.dark-banner-text {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.dark-banner-text .highlight-text {
+  color: #8dc740;
+}
+
+
 
 /*.portfolio-link,
 .portfolio-link-mouseover {
@@ -75,6 +94,54 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 .hovereffect a { text-decoration: none; }
 .hovereffect .overlay { pointer-events: none; }
+
+
+
+@media (max-width: 991px) {
+
+  .dark-jumbo-text {
+    padding: 30px 10px;
+    font-size: 1.8em;
+    max-width: 900px;
+    text-align: center;
+  }
+
+  .dark-jumbo-image img {
+    max-height: 400px;
+    max-width: 400px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  nav.navbar.navbar-default {
+    margin: 0px;
+  }
+
+
+  .dark-jumbo-text {
+    padding: 20px 10px;
+    font-size: 1.5em;
+  }
+
+
+}
+
+@media (max-width: 481px) {
+
+  .dark-jumbo-text {
+    font-size: 1.4em;
+  }
+
+
+}
+
+
+
 
 
 /*">
