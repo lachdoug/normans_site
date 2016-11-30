@@ -94,12 +94,16 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 .hovereffect a { text-decoration: none; }
 .hovereffect .overlay { pointer-events: none; }
-.hovereffect:hover a.info {
-  margin: 10px 0px 0px 0px;
+.hovereffect a.info {
+  margin: 20%;
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0;
+  border: none;
 }
 
+.hovereffect:hover a.info {
+  opacity: 0.5;
+}
 
 
 @media (max-width: 991px) {
@@ -161,6 +165,14 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 }
 
+@media (max-width: 350px) {
+
+  .hovereffect a.info {
+    display: none;
+  }
+
+
+}
 
 
 
