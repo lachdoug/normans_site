@@ -1,5 +1,5 @@
 body { margin: 0px; font-family: 'Dosis'; font-size: 1.5em; font-weight: lighter; color: #000; background-color: #bbb;}
-.page { max-width: 1800px; margin-left: auto; margin-right: auto; }
+.page { max-width: 1080px; margin-left: auto; margin-right: auto; }
 .page .row { margin-left: 0px; margin-right: 0px; }
 
 nav.navbar.navbar-default { background-color: white; border-radius: 0px; border: none; margin: 10px 0px 0px 0px; font-weight: bold; }
@@ -22,20 +22,21 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 .dark-jumbo-text {
   color: white;
-  font-size: 2em;
-  padding: 130px 40px;
+  font-size: 3em;
+  line-height: 1.1em;
+  padding: 90px 40px;
   vertical-align: middle;
   text-transform: uppercase;
-  max-width: 400px;
 }
 
 .dark-jumbo-text .highlight-text {
   color: #8dc740;
+  font-weight: bold;
 }
 
 .dark-jumbo-image img {
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 700px;
+  max-width: 700px;
   float: right;
 }
 
