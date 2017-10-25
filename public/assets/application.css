@@ -24,7 +24,7 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
   color: white;
   font-size: 3em;
   line-height: 1.1em;
-  padding: 90px 40px;
+  padding: 90px 0px 0px 40px;
   vertical-align: middle;
   text-transform: uppercase;
 }
