@@ -1,4 +1,9 @@
-<h3><%= @page_detail[0] %></h3>
+<div style="margin-left: 10px;">
+  <h3><%= @page_detail[0] %></h3>
+  <label>Client</label>
+  <br>
+  <div style="margin: -5px 0px 10px 0px;"><%= @page_detail[1] %></div>
+</div>
 
 <% @page_detail[2].times do |index| %>
 <div class="portfolio_page_image text-center">

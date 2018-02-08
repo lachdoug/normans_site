@@ -28,37 +28,17 @@ end
 
 def my_work_pages
   [
-    [ "TechSydney - Proposal", "Jordan Lane Creative", 5, 1 ],
-    [ "CARAS - Brochure & Stationery", "CARAS", 6, 1 ],
-    [ "Hark Attack - Brochure & Collateral", "Hark Attack", 4, 1 ],
-    [ "LAIDRE - Brochure", "LAIDRE", 4, 1 ],
-    [ "Hark Attack - CC’s Advertisements", "Hark Attack", 3, 1 ],
-    [ "AMZ Engineering - Brochure", "AMZ Engineering", 4, 1 ],
-    [ "Techfront - Brochure", "Jordan Lane Creative", 4, 1 ],
-    [ "Identikit - Book Covers", "Identikit", 3, 1 ],
-    [ "AMIC - Conference Collateral", "AMIC", 5, 1 ],
-    [ "AMPC - Annual Report", "AMPC", 6, 1 ],
-    [ "Corporate ID", "Various", 6, 1 ],
-    [ "Photography", "Personal", 12, 1 ],
+    [ "TechSydney - Proposal", "Jordan Lane Creative", 5 ],
+    [ "CARAS - Brochure & Stationery", "CARAS", 6 ],
+    [ "Hark Attack - Brochure & Collateral", "Hark Attack", 4 ],
+    [ "LAIDRE - Brochure", "LAIDRE", 4 ],
+    [ "Hark Attack - CC’s Advertisements", "Hark Attack", 3 ],
+    [ "AMZ Engineering - Brochure", "AMZ Engineering", 4 ],
+    [ "Techfront - Brochure", "Jordan Lane Creative", 4 ],
+    [ "Identikit - Book Covers", "Identikit", 3 ],
+    [ "AMIC - Conference Collateral", "AMIC", 5 ],
+    [ "AMPC - Annual Report", "AMPC", 6 ],
+    [ "Corporate ID", "Various", 6 ],
+    [ "Photography", "Personal", 17 ],
   ]
-end
-
-def set_portfolio_content(page)
-  case page.to_sym
-  when :photography
-    @page_title = "Photograpghy"
-    @image = "dog1.jpg"
-  when :cool
-    @page_title = "Cool stuff"
-    @image = "dog2.jpg"
-  when :wow
-    @page_title = "This is wow"
-    @image = "dog3.jpg"
-  when :look
-    @page_title = "Look here"
-    @image = "dog4.jpg"
-  else
-    @page_title = "Ooops"
-    @image = "dog1.jpg"
-  end
 end

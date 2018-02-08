@@ -2,7 +2,7 @@ body { margin: 0px; font-family: 'Dosis'; font-size: 1.5em; font-weight: lighter
 .page { max-width: 1080px; margin-left: auto; margin-right: auto; }
 .page .row { margin-left: 0px; margin-right: 0px; }
 
-nav.navbar.navbar-default { background-color: white; border-radius: 0px; border: none; margin: 10px 0px 0px 0px; font-weight: bold; }
+nav.navbar.navbar-default { background-color: white; border-radius: 0px; margin: 0px; border: none; font-weight: bold; }
 nav.navbar.navbar-default .navbar-nav > li > a { color: #666; }
 nav.navbar.navbar-default .navbar-toggle { border-color: transparent; }
 nav.navbar.navbar-default .navbar-toggle .icon-bar { background-color: #999; }
@@ -15,6 +15,7 @@ nav.navbar.navbar-default .navbar-brand { color: #666; }
 nav.navbar.navbar-default .navbar-brand:hover { color: #000; }
 nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
+.dropdown-menu > .active > a { background-color: #999; }
 
 .dark-jumbo {
   background-color: #000;
@@ -91,6 +92,7 @@ nav.navbar.navbar-default .navbar-brand > img { display: inline-block; }
 
 .tight-padding { padding: 0px !important; }
 .narrow-page-gap { height: 10px; }
+.page-end { height: 20px; }
 .full-width { width: 100%; }
 
 .hovereffect a { text-decoration: none; }
