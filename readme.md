@@ -1,13 +1,8 @@
-Simple portfolio
+Norman's website
 ======
-
-Very basic CMS for presenting a portfolio of work.
-
-Install
--------
 
 Sinatra app. Launch start.rb
 
-One static directory at /config
+No persistent volumes
 No ENVs
 No DB
