@@ -8,9 +8,10 @@ def index_html
   erb :index, layout: :layout
 end
 
-get '/portfolio' do
-  set_portfolio_content params[:page]
-  erb :portfolio, layout: :layout
+get '/my_work' do
+  @page = params[:page].to_i
+  @page_detail = my_work_pages[ @page - 1 ]
+  erb :my_work, layout: :layout
 end
 
 get '/about' do
@@ -23,6 +24,23 @@ end
 
 helpers do
 
+end
+
+def my_work_pages
+  [
+    [ "TechSydney - Proposal", "Jordan Lane Creative", 5, 1 ],
+    [ "CARAS - Brochure & Stationery", "CARAS", 6, 1 ],
+    [ "Hark Attack - Brochure & Collateral", "Hark Attack", 4, 1 ],
+    [ "LAIDRE - Brochure", "LAIDRE", 4, 1 ],
+    [ "Hark Attack - CC’s Advertisements", "Hark Attack", 3, 1 ],
+    [ "AMZ Engineering - Brochure", "AMZ Engineering", 4, 1 ],
+    [ "Techfront - Brochure", "Jordan Lane Creative", 4, 1 ],
+    [ "Identikit - Book Covers", "Identikit", 3, 1 ],
+    [ "AMIC - Conference Collateral", "AMIC", 5, 1 ],
+    [ "AMPC - Annual Report", "AMPC", 6, 1 ],
+    [ "Corporate ID", "Various", 6, 1 ],
+    [ "Photography", "Personal", 12, 1 ],
+  ]
 end
 
 def set_portfolio_content(page)

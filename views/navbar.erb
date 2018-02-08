@@ -19,11 +19,11 @@
         <li class="dropdown <%= @active == 'photography' ? 'active': '' %>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MY WORK<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="<%= @active == 'photography' ? 'active': '' %>"><a href="/portfolio?page=photography">Photography</a></li>
-            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=Cool+stuff">Cool stuff</a></li>
-            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=Wow">Wow</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="<%= @active == 'about' ? 'active': '' %>"><a href="/portfolio?page=Look+at+this+great+page">Look</a></li>
+            <% my_work_pages.each.with_index do |page_detail, index| %>
+            <li class="<%= @page == index + 1 ? 'active': '' %>">
+              <a href="/my_work?page=<%= index + 1 %>"><%= page_detail[0] %></a>
+            </li>
+            <% end %>
           </ul>
         </li>
         <li class="<%= @active == 'contact' ? 'active': '' %>"><a href="/contact">CONTACT ME</a></li>

@@ -30,190 +30,22 @@
   </div>
 </div>
 
-
 <div class="row">
-
-
-
+<% my_work_pages.each.with_index do | page, index | %>
 
   <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=photography">
+    <a href="/my_work?page=<%= index + 1 %>">
       <div class="hovereffect">
-        <img src="/images/portfolio1.png" class="img img-responsive full-width" alt="" />
+        <img src="/images/<%= index + 1 %>/1.jpg" class="img img-responsive full-width" alt="" />
         <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=photography"><i class="glyphicon glyphicon-adjust"></i></a>
+           <h2><%= page[0] %></h2>
+           <a class="info" href="/my_work?page=<%= index + 1 %>"><i class="glyphicon glyphicon-adjust"></i></a>
         </div>
       </div>
     </a>
   </div>
 
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=cool">
-      <div class="hovereffect">
-        <img src="/images/portfolio2.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=cool"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=photography">
-      <div class="hovereffect">
-        <img src="/images/portfolio1.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=photography"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=cool">
-      <div class="hovereffect">
-        <img src="/images/portfolio2.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=cool"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=photography">
-      <div class="hovereffect">
-        <img src="/images/portfolio1.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=photography"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=cool">
-      <div class="hovereffect">
-        <img src="/images/portfolio2.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=cool"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=photography">
-      <div class="hovereffect">
-        <img src="/images/portfolio1.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=photography"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=cool">
-      <div class="hovereffect">
-        <img src="/images/portfolio2.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=cool"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=photography">
-      <div class="hovereffect">
-        <img src="/images/portfolio1.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=photography"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=cool">
-      <div class="hovereffect">
-        <img src="/images/portfolio2.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=cool"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=photography">
-      <div class="hovereffect">
-        <img src="/images/portfolio1.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=photography"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
-
-
-  <div class="tight-padding col-xs-6 col-sm-6 col-md-4 col-lg-3">
-    <a href="/portfolio?page=cool">
-      <div class="hovereffect">
-        <img src="/images/portfolio2.png" class="img img-responsive full-width" alt="" />
-        <div class="overlay">
-           <h2>Conference Collatoral</h2>
-           <a class="info" href="/portfolio?page=cool"><i class="glyphicon glyphicon-adjust"></i></a>
-        </div>
-      </div>
-    </a>
-  </div>
-
-
+<% end %>
 </div>
 
 

@@ -1,0 +1,7 @@
+<h3><%= @page_detail[0] %></h3>
+
+<% @page_detail[2].times do |index| %>
+<div class="portfolio_page_image text-center">
+  <img src="/images/<%= @page %>/<%= index + 1 %>.jpg" class="img img-responsive full-width" />
+</div>
+<% end %>
