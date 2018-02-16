@@ -14,10 +14,6 @@ get '/my_work' do
   erb :my_work, layout: :layout
 end
 
-get '/about' do
-  erb :about, layout: :layout
-end
-
 get '/contact' do
   erb :contact, layout: :layout
 end
