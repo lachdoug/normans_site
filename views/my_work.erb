@@ -1,12 +1,24 @@
-<div style="margin-left: 10px;">
-  <h3><%= @page_detail[0] %></h3>
-  <label>Client</label>
-  <br>
-  <div style="margin: -5px 0px 10px 0px;"><%= @page_detail[1] %></div>
+<div class="row">
+  <div class="col-sm-12">
+    <h4><%= @page_detail[0] %></h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <label>Client</label>
+    <br>
+    <div style="margin: -5px 0px 10px 0px;"><%= @page_detail[1] %></div>
+  </div>
+  <div class="col-sm-6">
+    <label>My role</label>
+    <br>
+    <div style="margin: -5px 0px 10px 0px;"><%= @page_detail[2] %></div>
+  </div>
 </div>
 
-<% @page_detail[2].times do |index| %>
+<% @page_detail[3].times do |index| %>
 <div class="portfolio_page_image text-center">
   <img src="/images/<%= @page %>/<%= index + 1 %>.jpg" class="img img-responsive full-width" />
 </div>
+<div class='page-gap'></div>
 <% end %>
