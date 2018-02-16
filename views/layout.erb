@@ -23,10 +23,12 @@
 
 <body>
 
-<div class='page'>
+<div class='narrow-page-gap'></div>
+<%= erb :navbar %>
 
-  <div class='narrow-page-gap'></div>
-  <%= erb :navbar %>
+<div class="container">
+
+
   <%= yield %>
   <div class='page-end'></div>
 

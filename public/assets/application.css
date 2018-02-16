@@ -1,6 +1,6 @@
-body { margin: 0px; font-family: 'Dosis'; font-size: 1.5em; font-weight: lighter; color: #000; background-color: #bbb;}
-.page { max-width: 1080px; margin-left: auto; margin-right: auto; }
-.page .row { margin-left: 0px; margin-right: 0px; }
+body { margin: 0px; font-family: 'Dosis'; font-size: 1.5em; font-weight: lighter; color: #000; background-color: #bbb; overflow-y: scroll;}
+/*.page { max-width: 1080px; margin-left: auto; margin-right: auto; }*/
+/*.page .row { margin-left: 0px; margin-right: 0px; }*/
 
 nav.navbar.navbar-default { background-color: white; border-radius: 0px; margin: 0px; border: none; font-weight: bold; }
 nav.navbar.navbar-default .navbar-nav > li > a { color: #666; }
@@ -9,7 +9,7 @@ nav.navbar.navbar-default .navbar-toggle .icon-bar { background-color: #999; }
 nav.navbar.navbar-default .navbar-toggle:hover { background-color: #333; border-color: transparent;  }
 nav.navbar.navbar-default .navbar-toggle:focus { background-color: #333; border-color: transparent;  }
 nav.navbar.navbar-default .navbar-nav > li > a:hover { color: #000; }
-nav.navbar.navbar-default .navbar-brand { padding: 0px 5px 0px 20px; vertical-align: middle; line-height: 48px; font-size: 32px; font-weight: lighter; }
+nav.navbar.navbar-default .navbar-brand { padding: 0px 5px 0px 5px; vertical-align: middle; line-height: 48px; font-size: 32px; font-weight: lighter; }
 nav.navbar.navbar-default .navbar-brand img { height: 50px; vertical-align: top; }
 nav.navbar.navbar-default .navbar-brand { color: #666; }
 nav.navbar.navbar-default .navbar-brand:hover { color: #000; }
